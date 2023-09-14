@@ -5,7 +5,7 @@ import CustomButton from '../Button/Button';
 import { useQuery } from "@apollo/client";
 import { gql } from '@apollo/client';
 import { useMutation } from '@apollo/client';
-import { Insert_QUERY } from '../../GraphQL/insert';
+import { Insert_QUERY } from '../../GraphQL/fetch';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const SubmitComponent = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import { useQuery } from '@apollo/client';
 import { gql } from '@apollo/client';
-import { GET_CHECK_INS } from '../../GraphQL/insert';
+import { GET_CHECK_INS } from '../../GraphQL/fetch';
 import CustomCard from '../Card/Card';
 
 const ChecklnsComponent = () => {
